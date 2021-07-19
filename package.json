@@ -1,0 +1,14 @@
+{
+  "name": "mytestcafeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/"
+  },
+  "author": "gagansingh",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.15.0"
+  }
+}
