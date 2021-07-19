@@ -5,8 +5,6 @@ class ProductPage{
       
         this.expectedElePostLogin = Selector('title'); 
         this.expectedEletext = 'Swag Labs';
-    }
-
-    
+    }  
 }
 export default new ProductPage();
