@@ -1,0 +1,5 @@
+{
+    "browsers": "chrome",
+    "src" : "src/tests/*.js",
+    "skipJsErrors" : true
+}

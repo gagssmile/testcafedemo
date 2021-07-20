@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/"
+    "test": "testcafe chrome tests/",
+    "test:confFile": "testcafe"
   },
   "author": "gagansingh",
   "license": "ISC",
