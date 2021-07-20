@@ -1,5 +1,10 @@
 {
     "browsers": "chrome",
     "src" : "src/tests/*.js",
-    "skipJsErrors" : true
+    "skipJsErrors" : true,
+    "screenshots":{
+        "path": "./configuration_file/screenshots/",
+        "takeOnFails": true,
+        "fullPage": true
+    }
 }
