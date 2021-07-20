@@ -1,0 +1,254 @@
+[
+  {
+    "description": "Login Page",
+    "elements": [
+      {
+        "id": "ScenarioLoading login page",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Loading login page",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\gags_\\testcafedemo\\src\\tests\\LoginTest.js:1:0"
+            },
+            "name": "Loading login page",
+            "result": {
+              "duration": 1808,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Loading login page</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioSucessful Login",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Sucessful Login",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\gags_\\testcafedemo\\src\\tests\\LoginTest.js:1:0"
+            },
+            "name": "Sucessful Login",
+            "result": {
+              "duration": 7231,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Sucessful Login</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioInvalid UserName",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Invalid UserName",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\gags_\\testcafedemo\\src\\tests\\LoginTest.js:1:0"
+            },
+            "name": "Invalid UserName",
+            "result": {
+              "duration": 6865,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Invalid UserName</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioInvalid Password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Invalid Password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\gags_\\testcafedemo\\src\\tests\\LoginTest.js:1:0"
+            },
+            "name": "Invalid Password",
+            "result": {
+              "duration": 6955,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Invalid Password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login Page",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.164"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2021-07-20T08:59:23.932Z",
+      "startTime": "2021-07-20T08:58:50.564Z"
+    },
+    "name": "Login Page",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@username"
+      },
+      {
+        "line": 0,
+        "name": "@sucessful"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@loading"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      }
+    ],
+    "uri": "C:\\Users\\gags_\\testcafedemo\\src\\tests\\LoginTest.js:1"
+  },
+  {
+    "description": "Product Page",
+    "elements": [
+      {
+        "id": "ScenarioLoading Product page",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Loading Product page",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\gags_\\testcafedemo\\src\\tests\\ProductTest.js:1:0"
+            },
+            "name": "Loading Product page",
+            "result": {
+              "duration": 10447,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Loading Product page</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Product Page",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "91.0.4472.164"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2021-07-20T08:59:23.932Z",
+      "startTime": "2021-07-20T08:58:50.564Z"
+    },
+    "name": "Product Page",
+    "runInfo": {
+      "endTime": "2021-07-20T08:59:23.931Z",
+      "passed": 5,
+      "startTime": "2021-07-20T08:58:50.564Z",
+      "testCount": 5,
+      "userAgents": [
+        "Chrome 91.0.4472.164 / Windows 10"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@loading"
+      },
+      {
+        "line": 0,
+        "name": "@product"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      }
+    ],
+    "uri": "C:\\Users\\gags_\\testcafedemo\\src\\tests\\ProductTest.js:1"
+  }
+]

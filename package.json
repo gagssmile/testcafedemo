@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "testcafe chrome tests/",
-    "test:confFile": "testcafe"
+    "test:confFile": "testcafe",
+    "test:reports": "testcafe  --skip-js-errors --reporter html:reports/htmlReports/testResults.html",
+    "test:report": "testcafe  chrome src/tests/*.js --skip-js-errors  --reporter cucumber-json --reporter-json-folder=reports/htmlReports/jsonReports",
+    "report": "node report-generator.js"
   },
   "author": "gagansingh",
   "license": "ISC",
   "devDependencies": {
     "testcafe": "^1.15.0"
+  },
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "testcafe-reporter-cucumber-json": "^6.2.1",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
